@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Gym Tracker</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .center-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .button-container {
+            margin: 20px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-container">
+        <h1>AI Gym Tracker</h1>
+        <div class="button-container">
+            <button onclick="window.location.href='/bicep_curl'">Bicep Curl</button>
+            <button onclick="window.location.href='/lateral_raise'">Lateral Raise</button>
+            <button onclick="window.location.href='/push_up'">Push Up</button>
+        </div>
+    </div>
+</body>
+</html>
